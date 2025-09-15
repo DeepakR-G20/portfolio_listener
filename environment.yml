@@ -1,0 +1,15 @@
+name: portfolio-listener
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.11
+  - requests
+  - python-dotenv
+  - pip
+  - pandas
+  - pip:
+      # If you later need additional tools not in conda, put them here
+      # - loguru
+      # - pytest
+      # - black
