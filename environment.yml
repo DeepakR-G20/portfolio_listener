@@ -8,6 +8,8 @@ dependencies:
   - python-dotenv
   - pip
   - pandas
+  - gspread
+  - oauth2client
   - pip:
       # If you later need additional tools not in conda, put them here
       # - loguru
